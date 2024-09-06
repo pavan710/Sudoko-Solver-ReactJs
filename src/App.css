@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sudoku-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 50px);
+  grid-template-rows: repeat(9, 50px);
+  gap: 5px;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 20px;
+  
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.solve{
+  background-color: rgb(21, 221, 21);
+
+}
+.clear{
+  background-color: red;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
